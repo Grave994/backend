@@ -1,9 +1,74 @@
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+const drinks = [
+    {
+        id: "1",
+        type: "soda",
+        brandName: "Coca-Cola",
+        ml: 500,
+        salePrice: 1.5,
+        costPrice: 0.8,
+        inStock: true,
+        category: "soft drinks",
+    },
+    {
+        id: "2",
+        type: "water",
+        brandName: "Evian",
+        ml: 750,
+        salePrice: 2.0,
+        costPrice: 1.0,
+        inStock: false,
+        category: "water",
+    },
+    {
+        id: "3",
+        type: "soda",
+        brandName: "Pepsi",
+        ml: 330,
+        salePrice: 1.2,
+        costPrice: 0.7,
+        inStock: true,
+        category: "soft drinks",
+    },
+    {
+        id: "4",
+        type: "juice",
+        brandName: "Tropicana",
+        ml: 1000,
+        salePrice: 3.0,
+        costPrice: 1.5,
+        inStock: true,
+        category: "juices",
+    },
+    {
+        id: "5",
+        type: "soda",
+        brandName: "Sprite",
+        ml: 500,
+        salePrice: 1.4,
+        costPrice: 0.9,
+        inStock: true,
+        category: "soft drinks",
+    },
+    {
+        id: "6",
+        type: "water",
+        brandName: "Nestle",
+        ml: 500,
+        salePrice: 1.0,
+        costPrice: 0.5,
+        inStock: true,
+        category: "water",
+    },
+    {
+        id: "7",
+        type: "juice",
+        brandName: "Minute Maid",
+        ml: 500,
+        salePrice: 2.5,
+        costPrice: 1.2,
+        inStock: false,
+        category: "juices",
+    },
+];
+
+module.exports = drinks;
